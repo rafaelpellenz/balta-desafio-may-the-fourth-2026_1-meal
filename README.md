@@ -16,12 +16,12 @@ Utilizar a IA cruza sua lista de ingredientes com o tempo livre na sua agenda (A
 
 #### Nível 2 - API
 - Estruturar um projeto de IA
-  - Api, Ai, Core, Infra, Applicattion?
+  - Api, Ai, Core, Infra, Application?
 - Expor um endpoint que recebe a entrada do usuário e retorna a receita
 
-#### Nível 2 - Fullstack + IA
+#### Nível 3 - Fullstack + IA
 - Estruturar um projeto de IA
-  - Api, Ai, Core, Infra, Applicattion?, Frontend (Blazor Wasm)
+  - Api, Ai, Core, Infra, Application?, Frontend (Blazor Wasm)
 - Expor um endpoint que recebe a entrada do usuário e retorna a receita
 
 Neste processo eu aprendi:
