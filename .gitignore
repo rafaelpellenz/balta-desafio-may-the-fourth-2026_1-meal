@@ -1,0 +1,9 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docview
+bin/
+obj/
+Properties/launchSettings.json
