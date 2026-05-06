@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MealAgent")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+679a6a40081a39f4b67b9f00dee000443271158b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b7239e0dbfc8dfdf65307face0093bde66a8f6a")]
 [assembly: System.Reflection.AssemblyProductAttribute("MealAgent")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MealAgent")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

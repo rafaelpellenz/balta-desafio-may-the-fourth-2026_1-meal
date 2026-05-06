@@ -1,11 +1,86 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "Microsoft.Extensions.AI.Abstractions/9.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Microsoft.Extensions.AI.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.AI.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.AI.Ollama/9.7.0-preview.1.25356.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.AI.Abstractions": "9.7.0"
+        },
+        "compile": {
+          "lib/net9.0/Microsoft.Extensions.AI.Ollama.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.AI.Ollama.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Microsoft.Extensions.AI.Abstractions/9.7.0": {
+      "sha512": "RfSX87hrIMi9ebfsVjr90qs+QlcgM4iQSgbLt5ZUuZdDZWKVQDS2ZTtSMEviAvy0apqvKVHEj6jQsPJPGcFUtQ==",
+      "type": "package",
+      "path": "microsoft.extensions.ai.abstractions/9.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "README.md",
+        "lib/net462/Microsoft.Extensions.AI.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.AI.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.AI.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.AI.Abstractions.xml",
+        "lib/net9.0/Microsoft.Extensions.AI.Abstractions.dll",
+        "lib/net9.0/Microsoft.Extensions.AI.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.AI.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.AI.Abstractions.xml",
+        "microsoft.extensions.ai.abstractions.9.7.0.nupkg.sha512",
+        "microsoft.extensions.ai.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.AI.Ollama/9.7.0-preview.1.25356.2": {
+      "sha512": "ztUJ87zhIXRSL3Bu0Mmy/qH1PfWZDTvIIMz1alPphR6Hi0rUqk2WFiry/y74iYy1sirn9/2YSObVZhYhlPqvWg==",
+      "type": "package",
+      "path": "microsoft.extensions.ai.ollama/9.7.0-preview.1.25356.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "README.md",
+        "lib/net462/Microsoft.Extensions.AI.Ollama.dll",
+        "lib/net462/Microsoft.Extensions.AI.Ollama.xml",
+        "lib/net8.0/Microsoft.Extensions.AI.Ollama.dll",
+        "lib/net8.0/Microsoft.Extensions.AI.Ollama.xml",
+        "lib/net9.0/Microsoft.Extensions.AI.Ollama.dll",
+        "lib/net9.0/Microsoft.Extensions.AI.Ollama.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.AI.Ollama.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.AI.Ollama.xml",
+        "microsoft.extensions.ai.ollama.9.7.0-preview.1.25356.2.nupkg.sha512",
+        "microsoft.extensions.ai.ollama.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "Microsoft.Extensions.AI.Ollama >= 9.7.0-preview.1.25356.2"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\rafael.pellenz\\.nuget\\packages\\": {},
@@ -41,7 +116,6 @@
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {}
         }
@@ -60,8 +134,13 @@
     },
     "frameworks": {
       "net10.0": {
-        "framework": "net10.0",
         "targetAlias": "net10.0",
+        "dependencies": {
+          "Microsoft.Extensions.AI.Ollama": {
+            "target": "Package",
+            "version": "[9.7.0-preview.1.25356.2, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

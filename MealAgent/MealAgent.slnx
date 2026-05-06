@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="../MealAgent.Api/MealAgent.Api.csproj" Id="305191e8-4a31-4f9d-b5c1-c06a5308b614" />
   <Project Path="MealAgent.csproj" />
 </Solution>

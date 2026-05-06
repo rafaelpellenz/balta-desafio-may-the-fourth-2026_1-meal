@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "WM1MmdUxI70=",
+  "dgSpecHash": "nS550RwuJes=",
   "success": true,
   "projectFilePath": "C:\\Users\\rafael.pellenz\\source\\repos\\rafaelpellenz\\balta-desafio-may-the-fourth-2026_1-meal\\MealAgent\\MealAgent.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\rafael.pellenz\\.nuget\\packages\\microsoft.extensions.ai.abstractions\\9.7.0\\microsoft.extensions.ai.abstractions.9.7.0.nupkg.sha512",
+    "C:\\Users\\rafael.pellenz\\.nuget\\packages\\microsoft.extensions.ai.ollama\\9.7.0-preview.1.25356.2\\microsoft.extensions.ai.ollama.9.7.0-preview.1.25356.2.nupkg.sha512"
+  ],
   "logs": []
 }
